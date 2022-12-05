@@ -7,7 +7,9 @@
 * **Telegram** [Denis Lipskiy](https://telegram.me/vernuskujinu)
 
 # About Me
+
 * I have been freelancing for about two years now. I work with builders like wordpress, prestashop and similar. I also use bootstrap, tailwindcss, but I also understand that my knowledge is not enough to work as a full-fledged front-end developer, because I don’t know and don’t understand some things. I want to learn fully Javascript, fully understand React and gain useful hands-on development experience. I would also like to find friends from the development field and find a good job
+
 * **My strengths:**
 
     * Quick learner
@@ -25,6 +27,7 @@
 # Code Examples
 
 ```
+
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark')
   } else {
@@ -56,6 +59,6 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 
 # Languages
 
-* **Belarusian** - native speaker.
+* **Belarusian** - native speaker
 * **English** - A2
 * **Polish** -B1
