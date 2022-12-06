@@ -1,1 +1,172 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .main-header {
+    background-color: rgb(101,102,171);
+    color: white;
+  }
+  
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .main-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contacts {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  .link_item {
+    margin-top: 25px;
+    list-style: none;
+  }
+  .links_menu {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .links_menu:hover {
+    color: navy;
+  }
+  .contacts-item .link-item {
+    display: block;
+    padding: 24px 0;
+    margin-right: 64px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .promo {
+    background-color: rgb(101,102,171);
+    color: white;
+  }
+  
+  .promo .container {
+    padding-top: 16px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .promo-title {
+    width: 675px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+  }
+  
+  .about {
+    margin: 80px 0;
+  }
+  
+  .about-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  .about-text {
+    width: 700px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .experience {
+    margin: 80px 0;
+  }
+  
+  .experience-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  .experience-item {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .experience-period {
+    width: 400px;
+  }
+  
+  .skills-languages {
+    margin: 80px 0;
+  }
+  
+  .skills-languages-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  .skills-languages-wrapper {
+    display: flex;
+  }
+  
+  .skills {
+    width: 400px;
+  }
+  
+  .projects {
+    margin: 80px 0;
+  }
+  .education {
+    margin: 80px 0;
+  }
+  
+  .projects-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  .projects-list a {
+    font-weight: bold;
+    color: navy;
+  }
+  
+  .main-footer {
+    padding: 20px;
+    background-color: rgb(101,102,171);
+    color: white;
+    display: flex;
+    text-align: center;
+  }
+  
+  .main-footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .nav_items {
+    margin-right: 15px;
+  }
+  .projects-list {
+    list-style-type: none;
+  }
