@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>Denis Lipskiy CV</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-header-nav" id="menu">
+        <ul class="contacts">
+          <li class="contacts-item">
+            <a class="link-item" href="mailto:vernuskujinu@gmail.com" target="_blank">
+              Email: vernuskujinu@gmail.com
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="https://telegram.me/vernuskujinu" class="link-item" target="_blank">
+              Telegram: +375296633076
+            </a>
+          </li>
+          <li class="link_item">
+            <a href="#about" class="links_menu">About me</a>
+            <a href="#exp" class="links_menu">My experience</a>
+            <a href="#skills" class="links_menu">Skills and languages</a>
+            <a href="#examples" class="links_menu">Example of my code</a>
+            <a href="#projects" class="links_menu">My projects</a>
+            <a href="#educ" class="links_menu">My education</a>
+          </li>
+        </ul>
+        <span>Kraków, Polska</span>
+      </nav>
+    </div>
+    <section class="promo">
+      <div class="container">
+        <img src="img/photo.png" alt="my photo" width="421">
+        <h1 class="promo-title">Denis Lipskiy</h1>
+        <p class="promo-subtitle">Front end developer</p>
+      </div>
+    </section>
+  </header>
+  <main class="main">
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about-title">About me</h2>
+        <p class="about-text">
+          I have been freelancing for about two years now. I work with builders like wordpress, prestashop and similar. I also use bootstrap, tailwindcss, but I also understand that my knowledge is not enough to work as a full-fledged front-end developer, because I don’t know and don’t understand some things. I want to learn fully Javascript, fully understand React and gain useful hands-on development experience. I would also like to find friends from the development field and find a good job
+        </p>
+      </div>
+    </section>
+    <section class="experience" id="exp">
+      <div class="container">
+        <h2 class="experience-title">My experience</h2>
+        <div class="experience-item">
+          <h3 class="experience-period">Now 2019 - Feb, 2021</h3>
+          <p class="experience-description">Web Developer</p>
+          <h3 class="experience-period">Feb, 2021 - Jul, 2021</h3>
+          <p class="experience-description">RS School student</p>
+          <h3 class="experience-period">Jul, 2021 - Present time</h3>
+          <p class="experience-description">Front end developer (freelance)</p>
+        </div>
+      </div>
+    </section>
+    <section class="skills-languages" id="skills">
+      <div class="container">
+        <h2 class="skills-languages-title">Skills and languages</h2>
+        <div class="skills-languages-wrapper">
+          <div class="skills">
+            <h3 class="skills-title">Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-item">HTML/CSS (Bootstrap, SASS/SCSS, TailwindCSS)</li>
+              <li class="skills-item">JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)</li>
+              <li class="skills-item">Git/GitHub</li>
+            </ul>
+          </div>
+          <div class="languages">
+            <h3 class="languages-title">Languages</h3>
+            <ul class="languages-list">
+              <li class="languages-item">Belarusian: Native speaker</li>
+              <li class="languages-item">English: A2</li>
+              <li class="languages-item">Polish: B1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="myprojects" id="projects">
+      <div class="container">
+        <h2 class="myprojects-title">My projects</h2>
+        <div class="list">
+          <div class="row row_one">
+            <form action="https://vernuskujinu.github.io/Ukrainian-player/" target="_blank">
+              <button class="btn">look</button>
+             </form>
+          </div>
+          <div class="row row_two">
+            <form action="https://vernuskujinu.github.io/online-zoo/zoo/" target="_blank">
+              <button class="btn">look</button>
+             </form>
+          </div>
+          <div class="row row_three">
+            <form action="https://vernuskujinu.github.io/coys/" target="_blank">
+              <button class="btn">look</button>
+             </form>
+          </div>
+          <div class="row row_four">
+            <form action="https://vernuskujinu.github.io/momentum/" target="_blank">
+              <button class="btn">look</button>
+             </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="examples">
+      <div class="container">
+        <h2 class="projects-title">Example of my code</h2>
+        <pre>
+          <code class="javascript">
+          <span class="fun">function</span> <span class="name">toggleModal</span> () {
+            <span class="fun">const</span> <span class="modal">body = document.</span><span class="name">querySelector</span>(<span class="red">'body'</span>)
+            <span class="fun">const</span> <span class="modal">modal = document</span>.<span class="name">querySelector</span>(<span class="red">'.modal'</span>)
+            <span class="modal">modal.classList.</span><span class="name">toggle</span>(<span class="red">'opacity-0'</span>)
+            <span class="modal">modal.classList.</span><span class="name">toggle</span>(<span class="red">'pointer-events-none'</span>)
+            <span class="modal">body.classList.</span><span class="name">toggle</span>(<span class="red">'modal-active'</span>)
+          }
+            </code></pre>
+      </div>
+    </section>
+    <section class="education" id="educ">
+      <div class="container">
+        <h2 class="projects-title">My education</h2>
+        <ul class="project-item">
+          <li class="projects-list">
+            I graduated from the Gomel State Technikal University Named After Sukhoi in absentia in 2016. Faculty of
+            Power Engineering, majoring in Industrial Heat Power Engineering.
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <nav class="footer_nav">
+        <ul class="nav_item">
+          <li class="nav_items">
+            <a href="https://github.com/vernuskujinu" target="_blank">GitHub</a>
+          </li>
+          <li class="nav_items">
+            <h4>2022</h4>
+          </li>
+          <li class="nav_items">
+            <figure>
+              <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" width="100"
+                  height="100" alt="logo"></a>
+            </figure>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    $(document).ready(function () {
+      $("#menu").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+          top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1000);
+      });
+    });
+  </script>
+</body>
+
+</html>
