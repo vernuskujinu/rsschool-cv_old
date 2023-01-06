@@ -17,12 +17,10 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-@media screen and (min-width: 768px) {
-  .main {
-    margin-left: 75px;
-  }
-}
+
 .main-header-nav {
   display: flex;
   justify-content: space-between;
@@ -35,14 +33,9 @@ body {
   display: flex;
   list-style: none;
 }
-.nav_link {
-  margin-top: 25px;
-  display: flex;
-  flex-wrap: wrap;
-}
 .link_item {
+  margin-top: 25px;
   list-style: none;
-  margin-right: 10px;
 }
 .links_menu {
   text-decoration: none;
