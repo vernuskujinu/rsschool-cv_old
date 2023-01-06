@@ -17,10 +17,12 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
-
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 75px;
+  }
+}
 .main-header-nav {
   display: flex;
   justify-content: space-between;
@@ -33,9 +35,14 @@ body {
   display: flex;
   list-style: none;
 }
-.link_item {
+.nav_link {
   margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.link_item {
   list-style: none;
+  margin-right: 10px;
 }
 .links_menu {
   text-decoration: none;
@@ -227,16 +234,16 @@ body {
   border-radius: 8px;
 }
 .row_one {
-  background: url(./img/player.png) no-repeat center;
+  background: url(/img/player.png) no-repeat center;
 }
 .row_two {
-  background: url(./img/zoo.png) no-repeat;
+  background: url(/img/zoo.png) no-repeat;
 }
 .row_three {
-  background: url(./img/coys.png) no-repeat center;
+  background: url(/img/coys.png) no-repeat center;
 }
 .row_four {
-  background: url(./img/momentum.png) no-repeat center;
+  background: url(/img/momentum.png) no-repeat center;
 }
 .btn {
   background-color: transparent;
@@ -254,3 +261,4 @@ body {
   background-color: black;
   color: white;
 }
+
